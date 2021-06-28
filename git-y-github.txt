@@ -114,3 +114,72 @@ Date:   Mon Jun 28 09:42:32 2021 +0200
 
 barce@LAPTOP-035KM4CA MINGW64 /d/archivos_de_programas/wampserver64/www/jh/git-y-github (master)
 $
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+barce@LAPTOP-035KM4CA MINGW64 /d/archivos_de_programas/wampserver64/www/jh/git-y-github (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git-y-github.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+barce@LAPTOP-035KM4CA MINGW64 /d/archivos_de_programas/wampserver64/www/jh/git-y-github (master)
+$ git add .
+
+barce@LAPTOP-035KM4CA MINGW64 /d/archivos_de_programas/wampserver64/www/jh/git-y-github (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   git-y-github.txt
+
+
+barce@LAPTOP-035KM4CA MINGW64 /d/archivos_de_programas/wampserver64/www/jh/git-y-github (master)
+$ git commit -m 'my second commit: agrego el archivo git-y-github.txt'
+[master 87c582a] my second commit: agrego el archivo git-y-github.txt
+ 1 file changed, 116 insertions(+)
+ create mode 100644 git-y-github.txt
+
+barce@LAPTOP-035KM4CA MINGW64 /d/archivos_de_programas/wampserver64/www/jh/git-y-github (master)
+$ git log
+commit 87c582a56e544debce0ad7e58ca61e0b0a55975a (HEAD -> master)
+Author: José Herrero <barcelona20180811@gmail.com>
+Date:   Mon Jun 28 09:52:49 2021 +0200
+
+    my second commit: agrego el archivo git-y-github.txt
+
+commit 6f7f70975953b6ca27841799e42ec2e8dc39d48f
+Author: José Herrero <barcelona20180811@gmail.com>
+Date:   Mon Jun 28 09:42:32 2021 +0200
+
+    mi primer commit agrego archivos index.html app.js style.css
+(END)
+
+barce@LAPTOP-035KM4CA MINGW64 /d/archivos_de_programas/wampserver64/www/jh/git-y-github (master)
+$ git log
+commit 87c582a56e544debce0ad7e58ca61e0b0a55975a (HEAD -> master)
+Author: José Herrero <barcelona20180811@gmail.com>
+Date:   Mon Jun 28 09:52:49 2021 +0200
+
+    my second commit: agrego el archivo git-y-github.txt
+
+commit 6f7f70975953b6ca27841799e42ec2e8dc39d48f
+Author: José Herrero <barcelona20180811@gmail.com>
+Date:   Mon Jun 28 09:42:32 2021 +0200
+:
+
+barce@LAPTOP-035KM4CA MINGW64 /d/archivos_de_programas/wampserver64/www/jh/git-y-github (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   git-y-github.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+barce@LAPTOP-035KM4CA MINGW64 /d/archivos_de_programas/wampserver64/www/jh/git-y-github (master)
+$

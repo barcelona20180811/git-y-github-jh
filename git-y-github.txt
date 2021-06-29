@@ -245,3 +245,140 @@ index 0fad483..bb55404 100644
 
 barce@LAPTOP-035KM4CA MINGW64 /d/archivos_de_programas/wampserver64/www/jh/git-y-github (master)
 $
+
+
+
+barce@LAPTOP-035KM4CA MINGW64 /d/archivos_de_programas/wampserver64/www/jh/git-y-github (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   git-y-github.txt
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+barce@LAPTOP-035KM4CA MINGW64 /d/archivos_de_programas/wampserver64/www/jh/git-y-github (master)
+$ git add git-y-github.txt
+
+barce@LAPTOP-035KM4CA MINGW64 /d/archivos_de_programas/wampserver64/www/jh/git-y-github (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   git-y-github.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+
+barce@LAPTOP-035KM4CA MINGW64 /d/archivos_de_programas/wampserver64/www/jh/git-y-github (master)
+$ git add index.html
+
+barce@LAPTOP-035KM4CA MINGW64 /d/archivos_de_programas/wampserver64/www/jh/git-y-github (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   git-y-github.txt
+        modified:   index.html
+
+
+barce@LAPTOP-035KM4CA MINGW64 /d/archivos_de_programas/wampserver64/www/jh/git-y-github (master)
+$
+
+
+$ git commit
+hint: Waiting for your editor to close the file...
+[master b73ea46] ahora se modificaron index.html y git-y-github.txt. El index.html ahora tiene código HTML.
+ 2 files changed, 72 insertions(+), 1 deletion(-)
+
+barce@LAPTOP-035KM4CA MINGW64 /d/archivos_de_programas/wampserver64/www/jh/git-y-github (master)
+$ wq
+bash: wq: command not found
+
+barce@LAPTOP-035KM4CA MINGW64 /d/archivos_de_programas/wampserver64/www/jh/git-y-github (master)
+$
+
+
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   git-y-github.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+barce@LAPTOP-035KM4CA MINGW64 /d/archivos_de_programas/wampserver64/www/jh/git-y-github (master)
+$ git add .
+
+barce@LAPTOP-035KM4CA MINGW64 /d/archivos_de_programas/wampserver64/www/jh/git-y-github (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   git-y-github.txt
+
+
+barce@LAPTOP-035KM4CA MINGW64 /d/archivos_de_programas/wampserver64/www/jh/git-y-github (master)
+$
+
+
+$ git log
+commit b73ea46d836b820e16b0bbda94042132cba88c8d (HEAD -> master)
+Author: José Herrero <barcelona20180811@gmail.com>
+Date:   Tue Jun 29 08:11:03 2021 +0200
+
+    ahora se modificaron index.html y git-y-github.txt.
+    El index.html ahora tiene código HTML.
+
+commit 89ced37bcfe7bf1453706ae3f1ecca8bc39251a8
+Author: José Herrero <barcelona20180811@gmail.com>
+Date:   Mon Jun 28 19:06:38 2021 +0200
+
+    Commit three: modifico nuevamente git-y-github.txt
+
+commit 87c582a56e544debce0ad7e58ca61e0b0a55975a
+Author: José Herrero <barcelona20180811@gmail.com>
+Date:   Mon Jun 28 09:52:49 2021 +0200
+
+    my second commit: agrego el archivo git-y-github.txt
+
+commit 6f7f70975953b6ca27841799e42ec2e8dc39d48f
+:
+
+
+barce@LAPTOP-035KM4CA MINGW64 /d/archivos_de_programas/wampserver64/www/jh/git-y-github (master)
+$ git log
+commit b73ea46d836b820e16b0bbda94042132cba88c8d (HEAD -> master)
+commit b73ea46d836b820e16b0bbda94042132cba88c8d (HEAD -> master)
+Author: José Herrero <barcelona20180811@gmail.com>
+Date:   Tue Jun 29 08:11:03 2021 +0200
+
+    ahora se modificaron index.html y git-y-github.txt.
+    El index.html ahora tiene código HTML.
+
+commit 89ced37bcfe7bf1453706ae3f1ecca8bc39251a8
+Author: José Herrero <barcelona20180811@gmail.com>
+Date:   Mon Jun 28 19:06:38 2021 +0200
+
+    Commit three: modifico nuevamente git-y-github.txt
+
+commit 87c582a56e544debce0ad7e58ca61e0b0a55975a
+Author: José Herrero <barcelona20180811@gmail.com>
+Date:   Mon Jun 28 09:52:49 2021 +0200
+
+    my second commit: agrego el archivo git-y-github.txt
+
+commit 6f7f70975953b6ca27841799e42ec2e8dc39d48f
+Author: José Herrero <barcelona20180811@gmail.com>
+Date:   Mon Jun 28 09:42:32 2021 +0200
+
+:
+
+
+

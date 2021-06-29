@@ -183,3 +183,65 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 barce@LAPTOP-035KM4CA MINGW64 /d/archivos_de_programas/wampserver64/www/jh/git-y-github (master)
 $
+
+_____________________________________________________________________
+
+29/06/2021 7:45 horas
+
+barce@LAPTOP-035KM4CA MINGW64 /d/archivos_de_programas/wampserver64/www/jh/git-y-github (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+barce@LAPTOP-035KM4CA MINGW64 /d/archivos_de_programas/wampserver64/www/jh/git-y-github (master)
+$ git checkout -- index.html
+
+barce@LAPTOP-035KM4CA MINGW64 /d/archivos_de_programas/wampserver64/www/jh/git-y-github (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+barce@LAPTOP-035KM4CA MINGW64 /d/archivos_de_programas/wampserver64/www/jh/git-y-github (master)
+$ git diff index.html
+diff --git a/index.html b/index.html
+index 0fad483..bb55404 100644
+--- a/index.html
++++ b/index.html
+@@ -1 +1,10 @@
+-Texto HTML
++<!DOCTYPE html>
++<html lang="en">
++  <head>
++    <meta charset="UTF-8" />
++    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
++    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++    <title>Primera Página JH</title>
+:...skipping...
+diff --git a/index.html b/index.html
+index 0fad483..bb55404 100644
+--- a/index.html
++++ b/index.html
+@@ -1 +1,10 @@
+-Texto HTML
++<!DOCTYPE html>
++<html lang="en">
++  <head>
++    <meta charset="UTF-8" />
++    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
++    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++    <title>Primera Página JH</title>
++  </head>
++  <body></body>
++</html>
+~
+~
+~
+~
+
+barce@LAPTOP-035KM4CA MINGW64 /d/archivos_de_programas/wampserver64/www/jh/git-y-github (master)
+$
